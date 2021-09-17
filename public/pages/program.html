@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Analytics</title>
+    <link rel="stylesheet" href="../styles.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@700;800;900&family=Roboto&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      defer
+      src="https://unpkg.com/@alpinejs/intersect@3.x.x/dist/cdn.min.js"
+    ></script>
+    <script
+      defer
+      src="https://unpkg.com/alpinejs@3.3.2/dist/cdn.min.js"
+    ></script>
+    <script
+      src="https://kit.fontawesome.com/75c401379b.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body
+    class="antialiased text-gray-800 min-w-[360px] bg-eastern-blue-100"
+    x-data
+  >
+    <header class="py-6 px-4 sm:px-6">
+      <div class="wrapper">
+        <nav class="flex justify-between">
+          <a href="../../public/index.html"><img src="../images/logo.png" alt="HRA Logo" class="h-10" /></a>
+          
+          <a href="../../public/index.html" class="font-poppins text-eastern-blue-500">Home</a>
+          <a href="../pages/team.html" class="font-poppins text-eastern-blue-500">Committe</a>
+          <a href="#" class="font-poppins text-eastern-blue-500">Program</a>
+        </nav>
+      </div>
+    </header>
+    <section class="py-8 px-4 sm:px-6">
+      <div class="wrapper">
+        <div class="md:grid md:grid-cols-12 md:items-center md:gap-4">
+          <div
+            class="text-center px-4 md:col-span-6 lg:col-span-5 md:text-left"
+          >
+            <h1
+              class="
+                text-4xl
+                md:text-5xl
+                font-poppins font-bold
+                text-eastern-blue-500
+              "
+              x-intersect="$el.classList.add('fadeInUp')"
+            >
+              HRA Meeting &<br /> Gathering
+            </h1>
+            <p
+              class="font-roboto text-eastern-blue-400 my-6 text-lg"
+              x-intersect="$el.classList.add('fadeInUp')"
+            >
+              Merupakan program yang diadakan
+              <span class="font-bold text-orange-600"> tiap 3 bulan </span>
+              bertujuan untuk berdiskusi, laporan terkini organisasi dan berbagi
+              informasi terkini yang diadakan di venue pilihan untuk memberikan
+              pengalaman networking yang berkesan kepada members.
+            </p>
+          </div>
+          <img
+            src="../images/pro1.jpg"
+            alt="Analytics Illustration"
+            class="
+              mt-6
+              md:mt-0 md:max-h-[45rem] md:col-span-6 md:ml-auto
+              lg:col-span-7
+            "
+            x-intersect="$el.classList.add('scale')"
+          />
+        </div>
+      </div>
+    </section>
+    <section class="py-8 px-4 sm:px-6">
+      <div class="wrapper">
+        <div class="md:grid md:grid-cols-12 md:items-center md:gap-4">
+          <img
+            src="../images/pro2.jpg"
+            alt="Analytics Illustration"
+            class="mt-6
+              md:mt-0 md:max-h-[45rem] md:col-span-6 md:mr-auto
+              lg:col-span-7"
+            x-intersect="$el.classList.add('scale')"
+          />
+          <div class='text-center px-4 md:col-span-6 lg:col-span-5 md:text-right'>
+            <h1
+              class="
+                text-4xl
+                md:text-5xl
+                text-right
+                font-poppins
+                text-eastern-blue-500
+              "
+              x-intersect="$el.classList.add('fadeInUp')"
+            >
+              HR Convention
+            </h1>
+            <p
+              class="mt-6 font-roboto text-lg text-eastern-blue-400 text-right"
+              x-intersect="$el.classList.add('fadeInUp')"
+            >
+              <span class='font-bold'>HRCON atau Human Resources Convention</span> merupakan konferensi
+                tahunan untuk anggota HRA Bali dan seluruh stakeholders terkait
+                berpartisipasi. Setiap tahun sejak <span class='text-orange-700 font-bold'>2017</span> kami mengangkat topik
+                dan bahasan berfokus pada masa depan, memberikan platform
+                berpikir untuk menjadi yang sesuai dengan perkembangan dunia
+                human resources dan hospitality.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="py-8 px-4 sm:px-6">
+      <div class="wrapper">
+        <div class="md:grid md:grid-cols-12 md:items-center md:gap-4">
+          <div
+            class="text-center px-4 md:col-span-6 lg:col-span-5 md:text-left"
+          >
+            <h1
+              class="
+                text-4xl
+                md:text-5xl
+                font-poppins font-bold
+                text-eastern-blue-500
+              "
+              x-intersect="$el.classList.add('fadeInUp')"
+            >
+              HRAcademy
+              </h1>
+            </h1>
+            <p
+              class="font-roboto text-eastern-blue-400 my-6 text-lg"
+              x-intersect="$el.classList.add('fadeInUp')"
+            >
+              <span class='font-bold'>Program tahunan</span> yang bertujuan untuk memberikan kesempatan bagi
+                siapa saja yang tertarik untuk <span class='italic'>belajar dan pendalaman materi</span>
+                mengenai human resources dengan metode informasi dibagikan
+                secara belajar aktif, praktek dan berbagi pengalaman. Sesi
+                dipandu oleh <span class='text-orange-700 font-bold'>praktisi HR</span> yang masih aktif di perusahaan,
+                konsultan, serta partner aktif dari industry pendamping,
+                menimbang panduan standar kompetensi dari BNSP SKKNI dengan
+                focus utama pada penyikapan lapangan dan berbagi pengalaman
+                sebagai praktisi.
+            </p>
+          </div>
+          <img
+            src="../images/pro3.jpg"
+            alt="Analytics Illustration"
+            class="
+              mt-6
+              md:mt-0 md:max-h-[45rem] md:col-span-6 md:ml-auto
+              lg:col-span-7
+            "
+            x-intersect="$el.classList.add('scale')"
+          />
+        </div>
+      </div>
+    </section>
+    <section class="py-8 px-4 sm:px-6">
+      <div class="wrapper">
+        <div class="md:grid md:grid-cols-12 md:items-center md:gap-4">
+          <img
+            src="../images/pro2.jpg"
+            alt="Analytics Illustration"
+            class="mt-6
+              md:mt-0 md:max-h-[45rem] md:col-span-6 md:mr-auto
+              lg:col-span-7"
+            x-intersect="$el.classList.add('scale')"
+          />
+          <div class='text-center px-4 md:col-span-6 lg:col-span-5 md:text-right'>
+            <h1
+              class="
+                text-4xl
+                md:text-5xl
+                text-right
+                font-poppins
+                text-eastern-blue-500
+              "
+              x-intersect="$el.classList.add('fadeInUp')"
+            >
+              Pendampingan<br />& Sertifikasi<br /> MSDM BNSP
+            </h1>
+            <p
+              class="mt-6 font-roboto text-lg text-eastern-blue-400 text-right"
+              x-intersect="$el.classList.add('fadeInUp')"
+            >
+              Program yang dimulai di <span class='text-orange-700 font-bold'>2020</span> dalam upaya mendukung program dan
+                anjuran pemerintah dalam mencapai pengakuan atas standar
+                kompetensi nasional bagi praktisi Human Resources dalam <span class='font-bold'>skema
+                level HR Supervisor dan level HR Manager</span>. Program ini
+                terselenggara berkat Kerjasama dengan LSP MSDM BALIASEAN INTL.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer class="text-center space-y-2 mb-10">
+      <div
+        class="
+          flex
+          w-full
+          justify-center
+          items-center
+          space-x-4
+          font-poppins
+          text-sm
+          font-bold
+          text-eastern-blue-500
+        "
+      >
+        <p>Follow us on</p>
+        <div class="flex space-x-2 text-lg">
+          <a href="https://www.instagram.com/hra_bali/?hl=id" target="_blank"
+            ><i class="fab fa-instagram"></i
+          ></a>
+          <a
+            href="https://www.facebook.com/profile.php?id=100006028368464"
+            target="_blank"
+            ><i class="fab fa-facebook-square"></i
+          ></a>
+        </div>
+      </div>
+      <div>
+        <p class="font-roboto text-sm text-eastern-blue-500">
+          &copy; 2021 HRA Bali. <span class="italic">All rights reserved</span>
+        </p>
+      </div>
+    </footer>
+  </body>
+</html>
